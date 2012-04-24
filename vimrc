@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'flxf/uCpp.vim'
+Bundle 'scrooloose/nerdcommenter'
 
 syntax enable
 set background=dark
