@@ -1,4 +1,7 @@
-export PS1="\w/"
+# http://jonisalonen.com/2012/your-bash-prompt-needs-this/
+PS1="\[\033[G\]\w/"
+export PS1
+
 export TERM="xterm-color"
 export CLICOLOR=1
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
