@@ -4,7 +4,7 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 # http://jonisalonen.com/2012/your-bash-prompt-needs-this/
-PS1="\[\033[G\]\w/"
+PS1='\[\033[G\]\w/$(__git_ps1 " (%s):")'
 export PS1
 
 export TERM="xterm-color"
