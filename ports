@@ -4,6 +4,7 @@
   gcc_select @0.1_6 (active) platform='darwin 11' archs='noarch'
   ghc @6.10.4_5 (active) platform='darwin 11' archs='x86_64'
   git-core @1.7.10_0+bash_completion+credential_osxkeychain+doc+pcre+python27 (active) platform='darwin 11' archs='x86_64'
+  hub @1.8.4_1 (active) platform='darwin 11' archs='noarch'
   irssi @0.8.15_2+perl (active) platform='darwin 11' archs='x86_64'
   iTerm2 @1.0.0.20120203_0 (active) platform='darwin 11' archs='x86_64'
   python26 @2.6.8_0 (active) platform='darwin 11' archs='x86_64'
