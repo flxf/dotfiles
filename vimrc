@@ -25,6 +25,7 @@ set autoindent
 set colorcolumn=81
 set encoding=utf-8
 set expandtab
+set hlsearch
 set laststatus=2
 set nobackup
 set nocompatible
@@ -34,6 +35,7 @@ set number
 set ruler
 set shiftwidth=2
 set softtabstop=2
+set title
 set visualbell
 set wildmenu
 set wildmode=longest,list,full
@@ -54,3 +56,6 @@ let mapleader = ","
 " reselect visual block after indent/outdent
 vnoremap < <gv
 vnoremap > >gv
+
+" write the file the sudo
+cnoremap w!! w !sudo tee % >/dev/null
