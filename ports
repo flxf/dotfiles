@@ -13,5 +13,6 @@
   python_select @0.3_1 (active) platform='darwin 11' archs='noarch'
   ruby @1.8.7-p358_0+thread_hooks (active) platform='darwin 11' archs='x86_64'
   sqlite3 @3.7.11_0 (active) platform='darwin 11' archs='x86_64'
+  vim @7.3.496_0 (active) platform='darwin 11' archs='x86_64'
   wget @1.13.4_0+ssl (active) platform='darwin 11' archs='x86_64'
   zsh @4.2.7_1 (active) platform='darwin 11' archs='x86_64'
