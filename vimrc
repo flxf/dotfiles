@@ -1,6 +1,7 @@
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 " vundle
+filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -22,6 +23,7 @@ colorscheme solarized
 autocmd BufWritePre * :%s/\s\+$//e
 
 set autoindent
+set backspace=indent,eol,start
 set colorcolumn=81
 set encoding=utf-8
 set expandtab
@@ -45,12 +47,10 @@ set t_Co=256
 let g:Powerline_symbols = 'fancy'
 
 " custom filetypes
-filetype on
+filetype plugin indent on
 au BufRead,BufNewFile *.jsm set filetype=javascript
 au BufRead,BufNewFile *.ipdl set filetype=cpp
 
-" plugins
-filetype plugin on
 let mapleader = ","
 
 " reselect visual block after indent/outdent
