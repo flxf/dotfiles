@@ -1,6 +1,10 @@
 # git bash completion
 if [ -f /opt/local/etc/bash_completion ]; then
-  . /opt/local/etc/bash_completion
+  source /opt/local/etc/bash_completion
+fi
+
+if [ -f ~/.aliases ]; then
+  source ~/.aliases
 fi
 
 # http://jonisalonen.com/2012/your-bash-prompt-needs-this/
