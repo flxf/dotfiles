@@ -1,0 +1,16 @@
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  lg = log -p
+[apply]
+  whitespace = fix
+[color]
+  ui = auto
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[user]
+  name = Felix Fung
+  email =
