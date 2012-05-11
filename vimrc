@@ -14,6 +14,7 @@ Bundle 'Lokaltog/vim-powerline'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'flxf/uCpp.vim'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'juvenn/mustache.vim'
 
 syntax enable
 set background=dark
@@ -38,6 +39,7 @@ set number
 set ruler
 set shiftwidth=2
 set softtabstop=2
+set tags=./tags;$HOME
 set title
 set visualbell
 set wildmenu
@@ -45,14 +47,14 @@ set wildmode=longest,list,full
 
 set t_Co=256
 
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols='fancy'
 
 " custom filetypes
 filetype plugin indent on
 au BufRead,BufNewFile *.jsm set filetype=javascript
 au BufRead,BufNewFile *.ipdl set filetype=cpp
 
-let mapleader = ","
+let mapleader=","
 
 " reselect visual block after indent/outdent
 vnoremap < <gv
