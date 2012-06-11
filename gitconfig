@@ -4,6 +4,7 @@
   br = branch
   co = checkout
   lg = log -p
+  rb = rebase origin/master
 [apply]
   whitespace = fix
 [color]
@@ -11,6 +12,10 @@
 [core]
   editor = vim
   excludesfile = ~/.gitignore
+[diff]
+  renames = copies
+;[merge]
+  ;conflictstyle = diff3
 [user]
   name = Felix Fung
   email =
