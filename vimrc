@@ -16,6 +16,8 @@ Bundle 'flxf/uCpp.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'juvenn/mustache.vim'
 
+"Bundle 'git://git.wincent.com/command-t.git' " needs ruby support
+
 syntax enable
 set background=dark
 colorscheme solarized
@@ -28,6 +30,8 @@ set backspace=indent,eol,start
 set colorcolumn=81
 set encoding=utf-8
 set expandtab
+set foldlevel=20
+set foldmethod=syntax
 set history=1000
 set hlsearch
 set laststatus=2
