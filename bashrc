@@ -1,6 +1,15 @@
 # git bash completion
 if [ -f /opt/local/etc/bash_completion ]; then
-  source /opt/local/etc/bash_completion
+  . /opt/local/etc/bash_completion
+fi
+
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+  . /opt/local/etc/profile.d/bash_completion.sh
+fi
+
+# git prompt
+if [ -f /opt/local/share/git-core/git-prompt.sh ]; then
+  . /opt/local/share/git-core/git-prompt.sh
 fi
 
 if [ -f ~/.aliases ]; then
