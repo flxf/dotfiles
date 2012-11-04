@@ -57,6 +57,7 @@ let g:Powerline_symbols='fancy'
 filetype plugin indent on
 au BufRead,BufNewFile *.jsm set filetype=javascript
 au BufRead,BufNewFile *.ipdl set filetype=cpp
+au BufRead,BufNewFile Gemfile set filetype=ruby
 
 let mapleader=","
 
