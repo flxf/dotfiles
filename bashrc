@@ -1,3 +1,5 @@
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
 # git bash completion
 if [ -f /opt/local/etc/bash_completion ]; then
   . /opt/local/etc/bash_completion
